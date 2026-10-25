@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.13 – 25 Oct 2026
+- Panels reordered: "Checks before plotting and pushing to Code Generator" is now step 8, the Code Table Generator hand-over is step 9.
+- "Mapping sources checked" removed from the report; it is now a one-page PDF from a button in the checks panel.
+- Table 3: "[Confirm]" sits on the Neighbourhood plan and Overlays header rows only; individual rows read "No change".
+- Cover page prints black to all four edges.
+- Ward / division looked up automatically (QLD administrative boundaries – BCC wards, other councils' divisions).
+- Architect / building designer firm read from the plans (title block or email domain) for Appendix A and Figure 4.
+
 ## v3.12 – 25 Oct 2026
 - **Cover letter**: new "Cover letter" (Word) and "PDF" buttons produce MB's DA cover letter to Council from the same job (fee, addressee, salutation, signatory title and applicant email are under "Document control…" in step 6; MB contact details are remembered in your browser). Dropping a cover-letter .docx in step 7 now replaces the letter template, not the report template.
 - **PDF print views open in a new tab** (report, cover letter, preliminary check) so closing them never closes the tool; falls back to an in-page preview if pop-ups are blocked.
