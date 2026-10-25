@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.14 – 25 Oct 2026
+- Layout plan: roads named on the plan but not yet in the cadastre (a new internal road such as "Blacksmith Court") are kept as frontages, with a note listing the lots taken as fronting them; road abbreviations CRT, CL, CRS, ESP, PROM, BLVD, LN, WY etc. are recognised.
+- Layout plan: lots on a cul-de-sac bulb or bend take their frontage from the curved boundary facing the road label (previously "rear"/no frontage).
+- Layout plan: a boundary dimension read as an area label (e.g. "20.02 m" inside a 653 m² lot) no longer overrides the measured lot area; "1" and "01" are treated as the same lot.
+- Corner lots list both frontages in the lot table ("19m to Tina Street and 10.4m to Blacksmith Court (corner lot)").
+- Figure 2 (zone map) now draws for Ipswich – the zone layer query carries the ePlan map token.
+- Print: fixed the black strip at the top of page 2 and the thin white edges on the cover (Chromium was shrinking the print to fit the header logo's margin overhang).
+
 ## v3.13 – 25 Oct 2026
 - Panels reordered: "Checks before plotting and pushing to Code Generator" is now step 8, the Code Table Generator hand-over is step 9.
 - "Mapping sources checked" removed from the report; it is now a one-page PDF from a button in the checks panel.
