@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.12 – 25 Oct 2026
+- **Cover letter**: new "Cover letter" (Word) and "PDF" buttons produce MB's DA cover letter to Council from the same job (fee, addressee, salutation, signatory title and applicant email are under "Document control…" in step 6; MB contact details are remembered in your browser). Dropping a cover-letter .docx in step 7 now replaces the letter template, not the report template.
+- **PDF print views open in a new tab** (report, cover letter, preliminary check) so closing them never closes the tool; falls back to an in-page preview if pop-ups are blocked.
+- Architectural plans: GFA read from the areas block (ignores parking-rate text like "1/100m² GFA"); parking "provided (required)"; landscape area in m².
+- Civil / traffic engineer fields take the consultant's firm from the report (e.g. "Meliora Engineering") rather than a "prepared by…" sentence.
+- Step 8 rewritten with a live link to the Code Table Generator on meliorace.com; bar buttons renamed ("Copy text", green "JSON file for Code Table Tool"); print-summary button removed.
+
 ## v3.11 – 23 Oct 2026
 - Ipswich City Plan 2025 zoning and overlays now load automatically via the ePlan relay feed (115 layers); step 2 shows the feed age and warns if it is stale.
 - Excluded the city-wide "OV12 Flood & Overland Flow Risk" layer (it returns a hit for every Ipswich site); flood status comes from the risk-category layers.
