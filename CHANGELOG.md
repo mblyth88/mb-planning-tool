@@ -1,5 +1,8 @@
 # Changelog
 
+## v3.15 – 29 Oct 2026
+- New **Tool development feedback** panel at the bottom of the page: type an idea / bug / wrong-fact note, paste (Ctrl+V) or drop up to six screenshots, and it is emailed to Mitch with the job context (site, council, mode, version, browser, any errors logged in the session). Sent through a Google Apps Script mailer; until that is configured the panel opens an email in your mail program instead.
+
 ## v3.14 – 25 Oct 2026
 - Layout plan: roads named on the plan but not yet in the cadastre (a new internal road such as "Blacksmith Court") are kept as frontages, with a note listing the lots taken as fronting them; road abbreviations CRT, CL, CRS, ESP, PROM, BLVD, LN, WY etc. are recognised.
 - Layout plan: lots on a cul-de-sac bulb or bend take their frontage from the curved boundary facing the road label (previously "rear"/no frontage).
