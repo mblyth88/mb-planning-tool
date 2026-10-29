@@ -1,4 +1,3 @@
-[AGENTS.md](https://github.com/user-attachments/files/34063720/AGENTS.md)
 # Rules for this repo
 This repo is the master copy of this Meliora tool. GitHub wins over any local or Claude copy.
 ## Working
@@ -10,7 +9,7 @@ This repo is the master copy of this Meliora tool. GitHub wins over any local or
 - Keep changes small and on-task. No unrelated refactors or tidy-ups.
 - Do not delete or overwrite files without confirming the reason and the current repo state.
 - Run checks if the repo already has them; otherwise skip them.
-- Do not bump versions unless explicitly asked.
+- Bump the tool's version once per PR (patch for fixes, minor for new features) and add one changelog line. Never bump on intermediate builds.
 ## Meliora specifics
 - If the same skill or tool exists in Claude and in GitHub, the GitHub version is authoritative.
 - Any change made to a skill in Claude must be copied back to GitHub in the same session.
